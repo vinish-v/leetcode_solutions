@@ -1,6 +1,6 @@
 class Solution {
     public int gcdOfOddEvenSums(int n) {
-        int i=1;
+        /**int i=1;
         int odd=0;
         int even =0;
         while(i<=n){
@@ -16,6 +16,7 @@ class Solution {
             b=a%b;
             a=temp;
         }
-        return a;
+        return a;**/
+        return n;
     }
 }
